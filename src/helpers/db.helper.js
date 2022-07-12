@@ -1,4 +1,4 @@
 const mongoose = require('mongoose');
 
-module.exports.connect = () => mongoose.connect('mongodb://localhost:27017/codebuddy-interview-node');
+module.exports.connect = () => mongoose.connect('mongodb+srv://Tosif:tosif@cluster.pxxtp.mongodb.net/codebuddy');
 module.exports.disconnect = () => mongoose.disconnect();
